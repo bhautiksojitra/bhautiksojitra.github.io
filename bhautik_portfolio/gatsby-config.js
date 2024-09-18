@@ -6,6 +6,7 @@ module.exports = {
     title: `Bhautik_Portfolio`,
   },
   plugins: [
+    `gatsby-plugin-postcss`,
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     {
@@ -15,6 +16,17 @@ module.exports = {
         path: `${__dirname}/blog`,
       }
     },
-    "gatsby-plugin-mdx"
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: `jobs`,
+        path: `${__dirname}/jobs`,
+      }
+    },
+    "gatsby-plugin-mdx",
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {},
+    },
   ]
 };

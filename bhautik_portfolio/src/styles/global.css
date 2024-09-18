@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Pilat';
+    src: url('PilatWide-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+/* body {
+  font-family: 'Pilat', sans-serif;
+} */
+
+.tab-button
+{
+    @apply m-4 hover:text-green-300 hover:font-extrabold focus:text-green-300 focus:font-extrabold
+}
