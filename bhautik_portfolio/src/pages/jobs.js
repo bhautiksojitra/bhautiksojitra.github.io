@@ -17,6 +17,8 @@ const JobsPage = () => {
                                 company
                                 position_name
                                 duration
+                                tech_stack
+                                company_fullname
                             }
                         }
                     }
@@ -32,7 +34,7 @@ const JobsPage = () => {
     }, []);
     
     return (
-        <Layout pageTitle="Jobs">
+        <Layout pageTitle="Where I've Worked">
         <div class="m-1" >
             <ul class="text-sm flex">
                 {tabs.map((tab) => (
@@ -51,11 +53,16 @@ const JobsPage = () => {
             </ul>
 
             <div>
-            <p className='mb-2 mt-2'>{tabs[activeTab].node.frontmatter.position_name} @ {tabs[activeTab].node.frontmatter.company}</p>
+            <p className='mb-2 mt-2'>{tabs[activeTab].node.frontmatter.position_name} @ {tabs[activeTab].node.frontmatter.company_fullname}</p>
             <p className='text-sm mb-2'>{tabs[activeTab].node.frontmatter.duration}</p>
             <Markdown  className='prose'> 
                 {tabs[activeTab].node.html} 
             </Markdown>
+            {tabs[activeTab].node.frontmatter.tech_stack.map((title) => (
+                <div class="border px-3 mt-3 mx-1 inline-flex rounded-full"> 
+                    {title[0]} 
+                </div>
+            ))}
             </div>
       </div>
         </Layout>

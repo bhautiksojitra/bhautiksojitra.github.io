@@ -1,13 +1,15 @@
 ---
-id: 1
-company: MCHP
-company_fullname: Manitoba Centre for Health Policy
-position_name: Metadata Systems Developer Co-op
-duration: May 2022 - August 2022 
+id: 2
+company: UManitoba
+company_fullname: University of Manitoba
+position_name: Teaching Assistant (Comp Sci) 
+duration: January 2022 - Present
 tech_stack:
-    - ["Django", "Hello World"]
-    - ["MySQL", "Hello World"]
-    - ["HTML/CSS", "Hello World"]
+    - ["Leadership", ""]
+    - ["Attention to Detail", ""]
+    - ["Organizational", ""]
+    - ["Presentation", ""]
+    - ["Problem Solving", ""]
 ---
 
 <ul style="list-style-type: circle;">

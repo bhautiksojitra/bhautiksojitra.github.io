@@ -1,0 +1,8 @@
+.immage {
+    width: 300px; /* Limit maximum width */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #000; /* Simple frame */
+    border-radius: 100%; /* Round the corners */
+    padding: 5px; /* Optional: add some space between the image and the border */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Optional: adds a slight shadow */
+  }
