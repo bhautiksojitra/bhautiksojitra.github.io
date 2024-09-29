@@ -1,5 +1,4 @@
 import * as React from 'react'
-import { Link } from 'gatsby'
 import {
   container,
   heading,
@@ -9,25 +8,24 @@ import {
   navDiv
 } from './layout.module.css'
 
-const Layout = ({ pageTitle, children }) => {
+const Layout = ({ children }) => {
   return (
-    <div className={container}>
-      <nav className={navDiv}>
+      <nav class="sticky top-0 bg-white shadow-lg z-50 p-4">
         <ul className='flex justify-end items-center whitespace-nowrap'>
           <li className={navLinkItem}>
-            <Link to="/">
+            <a href="#home">
               Home
-            </Link>
+            </a>
           </li>
           <li className={navLinkItem}>
-            <Link to="/about">
+            <a href="#aboutme">
               About Me
-            </Link>
+            </a>
           </li>
-          <li className={navLinkItem}>
-            <Link to="/jobs">
+          <li className={navLinkItem} >
+            <a href="#jobs">
                 Experience
-            </Link>
+            </a>
           </li>
           <li className={navLinkItem}>
             <a  href='mailto:bsojitra2331@gmail.com'
@@ -38,8 +36,6 @@ const Layout = ({ pageTitle, children }) => {
           </li>
         </ul>  
       </nav>
-      {children}
-      </div>
   )
 }
 

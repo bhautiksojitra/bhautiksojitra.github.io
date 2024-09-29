@@ -25,7 +25,6 @@ const AboutPage = () => {
   const info = data.allMarkdownRemark.edges[0].node.html;
   return (
     <main>
-      <Layout>
         <div className='flex flex-col w-screen items-center mt-24'>
           <div className='flex flex-col md:flex-row lg:flex-row w-2/3  min-w-96'>
             <div>
@@ -37,8 +36,6 @@ const AboutPage = () => {
             </div>
           </div>
         </div>
-      </Layout>
-      
     </main>
   )
 }
