@@ -16,12 +16,12 @@ const IndexPage = () => {
   
   return (
       
-    <div class='w-screen'>
+    <div class=''>
       <Layout/>
       <section id="home" class='h-screen pt-16'>
         <HomePage/>
       </section>
-      <section id="aboutme" class='h-screen pt-16 overflow-auto'>
+      <section id="aboutme" class='h-screen pt-16 overflow-y-auto overflow-x-hidden'>
         <AboutPage/>
       </section>
       <section id="jobs" class='h-screen pt-16'>
