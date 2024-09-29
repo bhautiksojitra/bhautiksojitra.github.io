@@ -1,23 +1,21 @@
 .navDiv
 {
-  @apply bg-gradient-to-r from-teal-500 to-cyan-600 shadow-2xl
 }
 
 .heading {
-  color: rebeccapurple;
+  
 }
 
 .nav-links {
   display: flex;
   padding-left: 0;
-  @apply justify-end
+  @apply justify-end mr-10 whitespace-nowrap
 }
 
 .nav-link-item {
-  padding-right: 2rem;
-  @apply p-5
+  @apply p-4
 }
 
 .nav-link-text {
-  @apply hover:text-white text-gray-200
+  @apply py-3 px-6 bg-fuchsia-700 rounded-md
 }

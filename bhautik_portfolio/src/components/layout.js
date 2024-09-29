@@ -13,40 +13,33 @@ const Layout = ({ pageTitle, children }) => {
   return (
     <div className={container}>
       <nav className={navDiv}>
-        <ul className={navLinks}>
+        <ul className='flex justify-end items-center whitespace-nowrap'>
           <li className={navLinkItem}>
-            <Link to="/" className={navLinkText}>
+            <Link to="/">
               Home
             </Link>
           </li>
           <li className={navLinkItem}>
-            <Link to="/about" className={navLinkText}>
-              About
+            <Link to="/about">
+              About Me
             </Link>
           </li>
           <li className={navLinkItem}>
-            <Link to="/jobs" className={navLinkText}>
+            <Link to="/jobs">
                 Experience
             </Link>
           </li>
           <li className={navLinkItem}>
-            <Link to="/contact" className={navLinkText}>
-                Contact
-            </Link>
+            <a  href='mailto:bsojitra2331@gmail.com'
+                class='bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600'> Let's Connect </a>
+          </li>
+          <li className={navLinkItem}>
+            <a href='/Resume_Bhautik_Sojitra.pdf' target='_blank' class='bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600'> Resume </a>
           </li>
         </ul>  
       </nav>
-      
-      <div class="flex justify-center h-lvh items-center">
-        <main className='inline-flex flex-col w-2/5 min-w-96 mx-auto '>
-          <div class="flex items-center space-x-4 mb-5">
-            <h2 class="text-2xl">{pageTitle}</h2>
-            <div class="flex-grow border-t border-gray-300"></div>
-          </div>
-          {children}
-        </main>
+      {children}
       </div>
-    </div>
   )
 }
 
