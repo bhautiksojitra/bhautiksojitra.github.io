@@ -8,12 +8,12 @@
     "gatsby"
   ],
   "scripts": {
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "deploy": "gatsby build && gh-pages -d public"
+    "clean": "gatsby clean"
   },
   "dependencies": {
     "@mdx-js/react": "^2.3.0",
@@ -34,5 +34,8 @@
     "react-icons": "^5.3.0",
     "react-scroll": "^1.9.0",
     "tailwindcss": "^3.4.10"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
