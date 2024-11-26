@@ -1,0 +1,67 @@
+[
+    {
+        "CompanyName": "PTx Trimble",
+        "JobTitle": "Software Engineering Co-op",
+        "Duration": "Jan. 2023 - Present",
+        "JobDescription": [
+            {
+                "Title": ".NET & VueJS based web app",
+                "Details": [
+                    "Optimize UI performance",
+                    "Reduce CPU usage by 50% on Linux",
+                    "Migrate from NancyFx hosting to ASP.NET",
+                    "Provide bugfixes and new features for 1.5+ years"
+                ]
+            },
+            {
+                "Title": ".NET MAUI based cross-platform mobile app",
+                "Details": [
+                    "Set up Jenkins pipeline for CI/CD",
+                    "Configure Play Console (Android) and App Store Connect (iOS) for deploying app bundles",
+                    "Implement general features while working with 2 other teammates",
+                    "Work a little bit with AWS S3 to upload and download user/application level files"
+                ]
+            },
+            {
+                "Title": "Web app for remote access support (AWS Amplify)",
+                "Details": [
+                    "Create and read DynamoDB tables and forward data through API gateway",
+                    "Utilize the concept of Amplify environments to work in isolation and reduce conflicts with team members",
+                    "Make use of various AWS services like ECS, SES, and Cognito"
+                ]
+            }
+        ]
+    },
+    {
+        "CompanyName": "Manitoba Center for Health Policy",
+        "JobTitle": "Metadata Systems Developer Co-op",
+        "Duration": "May 2022 - Spet. 2022",
+        "JobDescription": [
+            {
+                "Title": "Project #1: Migrate health related metadata repository to new newer tech stack (MySQL, Django)",
+                "Details": [
+                    "Implement Python scripts to migrate 100+ AccessDB files over to MySQL",
+                    "Develop user interface with jQuery, HTML, CSS, and JS",
+                    "Understand massive implementation of legacy project and setup new Django environment"
+                ]
+            }
+        ]
+    },
+    {
+        "CompanyName": "University of Manitoba",
+        "JobTitle": "Teaching Assistant",
+        "Duration": "Jan. 2022 - Present",
+        "JobDescription": [
+            {
+                "Title": "Introductory CS 1 & DSA",
+                "Details": [
+                    "",
+                    "Develop user interface with jQuery, HTML, CSS, and JS",
+                    "Understand massive implementation of legacy project and setup new Django environment"
+                ]
+            }
+        ]
+
+
+    }
+]
