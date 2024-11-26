@@ -38,8 +38,9 @@ const JobsPage = () => {
 
   // Toggle function to expand/collapse details
   const toggleExpand = React.useCallback((index) => {
-    setExpandedIndex((prevIndex) => (prevIndex === index ? null : index));
     console.log("Hello World ", index);
+    setExpandedIndex((prevIndex) => (prevIndex === index ? null : index));
+    
   });
 
     
