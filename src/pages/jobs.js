@@ -31,15 +31,17 @@ const JobsPage = () => {
         `
     )
     const tabs = data.allMarkdownRemark.edges;
-    const [activeTab, setActiveTab] = useState(0);
+    const [activeTab, setActiveTab] = React.useState(0);
 
     // State to track which dropdown item is expanded
-  const [expandedIndex, setExpandedIndex] = useState(null);
+  const [expandedIndex, setExpandedIndex] = React.useState(null);
 
   // Toggle function to expand/collapse details
-  const toggleExpand = (index) => {
+  const toggleExpand = React.useCallback((index) => {
     setExpandedIndex((prevIndex) => (prevIndex === index ? null : index));
-  };
+    console.log("Hello World ", index);
+  });
+
     
     useEffect(() => {
         setActiveTab(0);
