@@ -74,7 +74,7 @@ const JobsPage = () => {
                         
                         {JobData[activeTab].JobDescription.map((description, index) => (
                             <div key={index}>
-                            <div
+                            <button
                               className="p-3 border mb-2 flex cursor-pointer hover:bg-slate-500"
                               onClick={() => toggleExpand(index)}
                             >
@@ -86,7 +86,7 @@ const JobsPage = () => {
                                 )}
                               </div>
                               <div className="font-bold">{description.Title}</div>
-                            </div>
+                            </button>
                             {expandedIndex === index && (
                               <ul className="pl-8 mb-5 list-disc text-sm text-gray-700 space-y-2">
                               {description.Details.map((detail, i) => (
