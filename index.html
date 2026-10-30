@@ -1,4 +1,46 @@
----
-layout: home
-# Index page
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bhautik Sojitra</title>
+<meta name="description" content="Personal website and portfolio of Bhautik Sojitra, software engineer in Winnipeg.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="layout">
+  <header class="side">
+    <div>
+      <h1 class="name" id="name">Bhautik Sojitra</h1>
+      <div class="role" id="role"></div>
+      <nav aria-label="Sections">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Work experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <button class="theme" id="theme" type="button" aria-label="Switch between light and dark theme">Switch theme</button>
+  </header>
+  <main>
+    <section id="about"><h2>About</h2><div class="body"></div></section>
+    <section id="experience"><h2>Work experience</h2><div class="body"></div></section>
+    <section id="projects"><h2>Projects</h2><div class="body"></div></section>
+    <section id="education"><h2>Education</h2><div class="body"></div></section>
+    <section id="resume"><h2>Resume</h2><div class="body"></div></section>
+    <section id="contact"><h2>Contact</h2><div class="body"></div></section>
+    <noscript><p>This site needs JavaScript to show its content.</p></noscript>
+    <footer>&copy; <span id="year"></span> <span id="foot-name"></span></footer>
+  </main>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
