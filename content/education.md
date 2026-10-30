@@ -1,4 +1,7 @@
 <!-- Copy the block below to add more. -->
 
-### Bachelor of Science, Computer Science (Honours)
-University of Manitoba
+### Bachelor of Computer Science (Honours)
+**University of Manitoba**  
+Winnipeg, Manitoba, Canada
+
+*First Class Honours · 2024*

@@ -1,6 +1,6 @@
 <!-- Replace these with your real links. -->
-I'm happy to hear about roles, projects, or just to talk shop.
+I'm always happy to connect about software engineering opportunities, interesting projects, or simply talk tech.
 
-- Email: [you@example.com](mailto:you@example.com)
-- LinkedIn: [linkedin.com/in/your-profile](https://www.linkedin.com/in/your-profile)
-- GitHub: [github.com/your-username](https://github.com/your-username)
+- **Email:** [bhautiksojitra73@gmail.com](mailto:bhautiksojitra73@gmail.com)
+- **LinkedIn:** [linkedin.com/in/bhautik-sojitra](https://www.linkedin.com/in/bhautik-sojitra/)
+- **GitHub:** [github.com/bhautiksojitra](https://github.com/bhautiksojitra)

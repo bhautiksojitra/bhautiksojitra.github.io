@@ -1,13 +1,19 @@
 <!-- Write in Markdown. The first paragraph shows in larger type. The bullet list at the end becomes the skill tags. -->
-I build mobile and full stack applications that people use every day.
+I build and own software products end-to-end, from designing back-end systems and databases to crafting intuitive user experiences.
 
-I'm a software engineer who works across the stack, from SQL databases and back-end services to the screens people actually tap. Right now I'm building a cross-platform mobile app with .NET MAUI. Before that, I spent two years on a full stack team maintaining a Vue front end.
+I'm a software engineer specializing in full-stack and cross-platform application development, with 3+ years of experience building, shipping, and maintaining production software. I've taken ownership of applications across the web and mobile, working primarily with C# and .NET, from developing scalable back-end services and optimizing databases to building responsive frontends and native-like mobile experiences.
 
-I'm based in Winnipeg and open to relocating within Canada and the US.
+I enjoy tackling complex technical challenges, learning new technologies, and taking ideas from concept to production. I'm equally comfortable taking initiative independently and collaborating with cross-functional teams to deliver meaningful software.
 
-- C# and .NET
+Based in Winnipeg, Canada. Open to relocation across Canada and the US.
+
+- C# & .NET
+- ASP.NET Core
 - .NET MAUI
 - SQL Server
 - SQLite
-- Vue
+- Vue.js
 - React
+- AWS
+- REST APIs
+- CI/CD

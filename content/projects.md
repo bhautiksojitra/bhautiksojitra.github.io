@@ -1,16 +1,21 @@
 <!-- One block per project. Keep this shape: a "### [Name](link)" line, a description, then the tech used in *italics*. Copy a block to add a project. -->
 
-### [Personal website](https://github.com/your-username/your-username.github.io)
-This site: static pages and Markdown, hosted on GitHub Pages.
+### [BundlePay](https://github.com/bhautiksojitra/BundlePay)
+A subscription management platform that allows users to combine multiple services into custom or predefined bundles and manage their subscriptions in one place. Currently in development.
 
-*HTML, CSS, JavaScript*
+*Next.js, TypeScript, C#, ASP.NET Core, PostgreSQL*
 
-### [Project name](https://github.com/your-username/project-two)
-One or two sentences on what it does and what problem it solves.
+### [Jewelry Ledger](https://github.com/bhautiksojitra/JewelryLedgerReact)
+A digital record-keeping application built to help a jewelry business manage worker records and replace traditional paper-based workflows.
 
-*React, JavaScript*
+*React, JavaScript, Flutter, Dart, Firebase*
 
-### [Project name](https://github.com/your-username/project-three)
-One or two sentences on what it does and what problem it solves.
+### [exFAT File System Reader](https://github.com/bhautiksojitra/exFAT-reader)
+A command-line tool that reads exFAT disk images, displays file system information, lists stored files, and allows users to retrieve individual files.
 
-*Tech used*
+*C, File Systems, Operating Systems*
+
+### [Inventory Tracking System](https://github.com/bhautiksojitra/Inventory-tracking-application)
+A Java application for managing business inventory. Uses a sorted linked list to organize items and handle inventory searches and updates.
+
+*Java, Data Structures, Object-Oriented Programming*

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+  <title id="title">Profile placeholder</title>
+  <desc id="desc">Stylized placeholder portrait for Bhautik Sojitra</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#dff4fb"/>
+      <stop offset="100%" stop-color="#91d7ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" rx="42" fill="url(#bg)"/>
+  <circle cx="300" cy="230" r="120" fill="#f5d5c3"/>
+  <path d="M180 520c18-110 82-160 120-160s102 50 120 160" fill="#15212b" opacity="0.9"/>
+  <path d="M220 170c12-60 58-105 120-105 64 0 110 44 120 105-28-23-67-38-120-38-54 0-92 15-120 38Z" fill="#15212b"/>
+  <circle cx="257" cy="230" r="12" fill="#15212b"/>
+  <circle cx="343" cy="230" r="12" fill="#15212b"/>
+  <path d="M270 290c20 22 40 32 60 32 20 0 40-10 60-32" fill="none" stroke="#15212b" stroke-width="12" stroke-linecap="round"/>
+  <text x="300" y="560" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="700" fill="#0f6a86">BS</text>
+</svg>

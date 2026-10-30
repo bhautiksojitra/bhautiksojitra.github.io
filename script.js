@@ -6,13 +6,27 @@
   const SECTIONS = ["about", "experience", "projects", "education", "resume", "contact"];
 
   /* Theme toggle: remembers the visitor's choice */
+  const themeButton = document.getElementById("theme");
+  const themeText = themeButton.querySelector(".theme-text");
+  const themeIcon = themeButton.querySelector(".theme-icon");
+
+  function syncThemeLabel() {
+    const t = root.getAttribute("data-theme");
+    const dark = t === "dark" || (!t && matchMedia("(prefers-color-scheme: dark)").matches);
+    themeText.textContent = dark ? "Light mode" : "Dark mode";
+    themeIcon.textContent = dark ? "☀️" : "🌙";
+    themeButton.setAttribute("aria-label", dark ? "Switch to light mode" : "Switch to dark mode");
+  }
+
   try { const s = localStorage.getItem("theme"); if (s) root.setAttribute("data-theme", s); } catch (e) {}
-  $("#theme").addEventListener("click", () => {
+  syncThemeLabel();
+  themeButton.addEventListener("click", () => {
     const t = root.getAttribute("data-theme");
     const dark = t === "dark" || (!t && matchMedia("(prefers-color-scheme: dark)").matches);
     const next = dark ? "light" : "dark";
     root.setAttribute("data-theme", next);
     try { localStorage.setItem("theme", next); } catch (e) {}
+    syncThemeLabel();
   });
 
   async function read(path) {
